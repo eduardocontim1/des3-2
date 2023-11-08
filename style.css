@@ -1,0 +1,48 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-seri;
+  color: #A54328;
+  background-image: url(old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png);
+
+  margin: auto;
+}
+
+div {
+  width: 40rem;
+}
+
+
+.modo {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+
+}
+
+.sub {
+  font-weight: bold;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+ul {
+  font-size: 2rem;
+}
+
+li {
+  font-size: 2rem;
+}
+
+@media(min-width: 40em) {
+  body {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
